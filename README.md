@@ -2,7 +2,7 @@
 
 # Sommaire
 
- * [Analyse des résultats du Stack Overflow Survey 201](#stack-overflow)
+ * [Analyse des résultats du Stack Overflow Survey 2019](#stack-overflow)
       1. [Présentation des données](#presentation) 
       2. [Résumé d'analyse des résultats](#resume-resultat)
       3. [Données et code](#code-donnees)
