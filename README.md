@@ -45,7 +45,6 @@ L'analyse principale est contenue dans le fichier jupyter notebook [sof-dataviz.
   5. ### Instruction d'exécution
 Téléchargez les de données requis ainsi que les bibliothèques requis, si nécessaire, modifiez les chemins de répertoire.
 Téléchargez le [fichier notebook](https://github.com/alfahami/sof-dataviz_ml-flask-app/blob/master/model_dev/sof-dataviz.ipynb) et exécutez le avec jupyter notebook
-Ouvrez
 </p>
 
 ## Machine Learning Flask web app <a name="ml-flask-app"></a>
