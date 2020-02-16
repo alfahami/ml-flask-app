@@ -11,7 +11,9 @@
  * [Machine Learning Flask app](#ml-flask-app)
       1. [Objectif de l'application](#objectif)
       2. [Installtion et exécution](#installation)
- * [Structure du repository](#repository)
+ * [Structure du projet](#repository)
+      1. [Présentation](#projet-presentation)
+      2. [Détails](#details)
 
 ## Analyse des resultats du Stack Overflow Survey 2019 <a name="stack-overflow"></a>
   1. ### Présentation des données <a name="presentation"></a>
@@ -51,8 +53,8 @@ Ouvrez
 <p align="justify">
 Application Web conçue pour montrer la structure du projet pour un modèle d'apprentissage automatique déployé à l'aide de flask. Ce projet comprend un modèle d'apprentissage automatique qui a été formé pour détecter si un commentaire en ligne est un <i>Cyber Troll</i> ou <i>non Cyber-Troll</i>. Cette application agit comme une interface permettant à un utilisateur de soumettre de nouvelles requêtes. Le modèle d'apprentissage automatique a été construit à l'aide de diverses fonctionnalités de scikit learn:
 
-    - Machine à vecteur de support (SVM)\
-    - Représentation textuelle Bag-of-Words (BoW)\
+    - Machine à vecteur de support (SVM)
+    - Représentation textuelle Bag-of-Words (BoW)
     - Grid Search + Cross Validation
 
 Chacun de ces composants est développé dans le projet dans un paramètre hors ligne à l'intérieur de `/ model_dev`. Les modèles SVM et BoW seront toujours nécessaires dans un cadre de production ou de test afin de pouvoir prédire les requêtes soumises par l'utilisateur, afin qu'ils puissent être sérialisés via la fonctionnalité de pickle de python et stockés dans le dossier `/model_assets`.
@@ -84,5 +86,52 @@ Vous pouvez soit visualizer le notebook du stackoverflow survey, soit utiliser l
 
 Nous essayons de prédire le commentaire : "Get the fuck out here"
 
-## Structure du repository <a name="repository"></a>
+## Structure du projet <a name="repository"></a>
+   1. ### Présentation <a name="projet-presentation"></a>
+            sof-dataviz_ml-flask-app
+            ├── model_assets
+            │   ├── model_V0.pkl
+            │   └── vectorizer_V0.pkl
+            ├── model_dev
+            │   ├── data
+            │   |   └── cyber-troll.json
+            │   |   └── survey_results_public.csv
+            │   |   └── survey_results_schema.csv
+            │   └── model_dev.ipynb
+            │   └── sof-dataviz.ipynb
+            │   └── BaseModel.py
+            ├── templates
+            │   └── index.html
+            │   └── cyber-troll.html
+            │   └── sof-dataviz.html
+            ├── app.py
+            ├── utils.py
+            ├── paquets-prerequis.txt
+            └── README.md
+
+   2. ### Details <a name="details"></a>
+
+`/model_assets` est utilisé pour stocker les états persistants du modèle prédictif et les extracteurs de fonctions apprises de scikit-learn.
+
+`/model_dev` est utilisé comme le dossier contenant les modèles où un .ipynb est utilisé pour développer le modèle et enregistrer de nouvelles versions des états persistants.
+
+Le stockage de nouveaux états persistants du modèle peut être effectué depuis jupyter notebook. Par exemple, dans model_dev.ipynb, je peux créer un nouveau modèle / recyclage et l'inclure dans le dossier `./model_assets` lorsque je suis satisfait de l'entrainement.
+
+La sélection de la version des modèles à utiliser pendant l'exécution est choisie dans la fonction de requête POST à l'intérieur de `app.py.`
+
+`/templates` contient les modèles html pour l'application.
+
+### Auteur
+[AL-FAHAMI TOIHIR](https://alfahami.github.io/ "View my resume")
+
+[FACULTE DES SCIENCES - KENITRA](http://fs.uit.ac.ma/ "Site officiel de FSK")
+
+DEPARTEMENT DE MATHEMATIQUES ET INFORMATIQUE
+
+### Remerciements
+Merci à Modingwa et W.M Gopar pour la clarté de leur blog post
+
+
+Licence:
+Le projet est disponible en open source selon les termes de la licence MIT.
 
