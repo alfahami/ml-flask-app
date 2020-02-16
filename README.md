@@ -132,6 +132,5 @@ DEPARTEMENT DE MATHEMATIQUES ET INFORMATIQUE
 Merci à Modingwa et W.M Gopar pour la clarté de leur blog post
 
 
-Licence:
-Le projet est disponible en open source selon les termes de la licence MIT.
+**Licence**: Le projet est disponible en open source selon les termes de la licence MIT.
 
