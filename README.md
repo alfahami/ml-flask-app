@@ -7,7 +7,7 @@
       2. [Résumé d'analyse des résultats](#resume-resultat)
       3. [Données et code](#code-donnees)
       4. [Prérequis](#prerequis)
-      5. [Instructions d'exéction](instructions)
+      5. [Instructions d'exécution](instructions)
  * [Machine Learning Flask app](#ml-flask-app)
       1. [Objectif de l'application](#objectif)
       2. [Installtion et exécution](#installation)
