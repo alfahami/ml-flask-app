@@ -1,4 +1,4 @@
-# Stack Overflow Survey 2019 et Machine Learning flask Web app
+# SOF Survey 2019 - Machine Learning flask Web app
 
 ## Analyse des resultats du Stack Overflow Survey 2019
 
