@@ -1,24 +1,51 @@
 # SOF Survey 2019 - Machine Learning flask Web app
 
-## Analyse des resultats du Stack Overflow Survey 2019
+# Sommaire
 
+ * [Analyse des résultats du Stack Overflow Survey 201](#stack-overflow)
+      1. [Présentation des données](#presentation) 
+      2. [Résumé d'analyse des résultats](#resume-resultat)
+      3. [Données et code](#code-donnees)
+      4. [Prérequis](#prerequis)
+      5. [Instructions d'exéction](instructions)
+ * [Machine Learning Flask app](#ml-flask-app)
+      1. Objectif de l'application
+      2. Installtion et exécution
+
+## Analyse des resultats du Stack Overflow Survey 2019 <a name="stack-overflow"></a>
+  1. ### Présentation des données <a name="presentation"></a>
 <p align="justify">
-Avec près de 90 000 réponses provenant de plus de 170 pays et territoires dépendants, le sondage Stack Overflow Annual Developer Survey continue d'être le sondage le plus complet jamais réalisée auprès des développeurs de logiciels. Le sondage couvre des aspects tels que la satisfaction professionnelle et la recherche d'emploi dans les langages de programmation...etc
+Avec près de 90 000 réponses provenant de plus de 170 pays et territoires dépendants, le sondage Stack Overflow Annual Developer Survey continue d'être le sondage le plus complet jamais réalisée auprès des développeurs de logiciels. Le sondage couvre des aspects tels que la satisfaction professionnelle et la recherche d'emploi dans les langages de programmation...etc<br>
 
-Dans ce projet, les résultats du sondage seront utilisés pour répondre aux questions suivantes pour les aspirants scientifiques des données (data scientists):
+Les données du sondage peuvent être télécharger [2019 Stack Overflow Survey results](https://insights.stackoverflow.com/survey)<br>
+Dans ce projet, les résultats du sondage seront utilisées pour répondre aux questions suivantes pour les aspirants scientifiques des données (data scientists):
 </p>
+
   * Quel est le langage de programmation de votre choix?
   * Quel est le salaire des développeurs?
   * Quel est le framework de choix numéro un pour les développeurs?
 
-### Resumé des résultats
+  2. ### Resumé des résultats <a name="resume-resultat"></a>
 <p align="justify">
 Après avoir analysé les données, nous constatons que python est le langage de programmation de choix pour les développeurs qui s'identifient en tant que Data Scientists et Machine Learning Specialist. Les salaires des Data Scientists et Machine Learning Specialist sont les plus élevés des États-Unis. Étonnamment, jQuery est le framework web de choix.
 
-Pour plus de détails, référez-vous à l'analyse complète [ici](https://github.com/alfahami/sof-dataviz_ml-flask-app/blob/master/model_dev/sof-dataviz.ipynb).
+  3. ### Données et code <a name="code-donnees"></a>
+L'analyse principale est contenue dans le fichier jupyter notebook [sof-dataviz.ipynb](https://github.com/alfahami/sof-dataviz_ml-flask-app/blob/master/model_dev/sof-dataviz.ipynb). Toutes les fonctions et le code, ainsi que la justification des décisions prises, sont contenus dans ce fichier notebook.
+
+  4. ### Prérequis <a name="prerequis"></a>
+   * Jupyter Notebook
+   * Numpy
+   * Pandas
+   * Seaborn
+   * Matplotlib
+    
+  5. ### Instruction d'exécution
+Téléchargez les de données requis ainsi que les bibliothèques requis, si nécessaire, modifiez les chemins de répertoire.
+Téléchargez le [fichier notebook](https://github.com/alfahami/sof-dataviz_ml-flask-app/blob/master/model_dev/sof-dataviz.ipynb) et exécutez le avec jupyter notebook
+Ouvrez
 </p>
 
-## Machine Learning Flask web app
+## Machine Learning Flask web app <a name="ml-flask-app"></a>
 <p align="justify">
 Application Web conçue pour montrer la structure du projet pour un modèle d'apprentissage automatique déployé à l'aide de flask. Ce projet comprend un modèle d'apprentissage automatique qui a été formé pour détecter si un commentaire en ligne est un `Cyber-Troll` ou `non Cyber-Troll`. Cette application agit comme une interface permettant à un utilisateur de soumettre de nouvelles requêtes. Le modèle d'apprentissage automatique a été construit à l'aide de diverses fonctionnalités de scikit learn:
 
