@@ -34,19 +34,19 @@ Le fichier notebook du modèle se trouve [ici](https://github.com/alfahami/sof-d
 </p>
 
 ## Installation 
-Premièrement, clone le repisitory localement
+Premièrement, faites clone le repisitory localement\
 `git clone git@github.com:alfahami/sof-dataviz_ml-flask-app.git`
 
-Créer un nouvel environement virtuel python dans le dossier du projet
+Créer un nouvel environement virtuel python dans le dossier du projet\
 `pyhton3 -m venv ./venv`
 
-Activation de l'environement que nous vennons de créer
+Activation de l'environement que nous vennons de créer\
 `source /venv/bin/activate`
 
-Installation des paquets python prérequis
+Installation des paquets python prérequis\
 `pip install -r paquets-prerequis.txt`
 
-Maintenant nous pouvons déployer l'application (Vous devez avoir flask déjà installé)
+Maintenant nous pouvons déployer l'application (Vous devez avoir flask déjà installé)\
 `python app.py`
 
 Naviguez vers `http://127.0.0.1:5000/` pour voir la page d'accueil de l'application
