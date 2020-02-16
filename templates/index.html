@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Dataviz &hyphen; ML web app</title>
+</head>
+<body>
+    <main id="landing-page">
+
+        <div class="container">
+            <div class="project left">
+                <img src="static/images/so-icon.svg" alt="stack overflow logo">
+                <span class="description">Stack Overflow survey 2019</span>
+            <a class="btn-lg btn-light" href="{{ url_for('dataviz_view') }}">Visualize me</a>
+            </div>
+            <div class="project right">
+                <img src="static/images/Trollface.gif" alt="troll face image">
+                <span class="description">Cyber&hyphen;Troll Prediction Service</span>
+                <a class="btn-lg btn-light" href="{{ url_for('troll_view') }}">Predict me</a>
+            </div>
+        </div>
+        <div class="clr"></div>
+
+        <h1>Data visualization &amp; Machine Learning</h1>
+        <div class="container">
+            <p class="lead">A dataviz & ML-Flask web app</p>
+            <div class="right">
+                <h2>Master Génie Logiciel pour le Cloud</h2>
+                <p class="author">AL-FAHAMI Toihir</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

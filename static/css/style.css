@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  background: #333;
+  color: #f5f5f5;
+  line-height: 2.5rem;
+  font-family: fantasy;  
+}
+
+h1, h2 {
+    font-size: 2.5rem;
+    padding-top: 1.6rem;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 45px;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+li {
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a {
+    float: right;
+    padding: 0 5%;
+    margin-left: 7%;
+    text-decoration: none;
+}
+
+.link {
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 660px;
+    margin: 0 auto;
+}
+
+.heading {
+    margin-top: 0;
+}
+
+.description {
+    font-size: larger;
+}
+
+.btn-lg {
+    color: red;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clr {
+    clear: both;
+}
+
+.lead, .author   {
+    padding: 0;
+    line-height: 1rem;
+    font-size: 1.5rem;
+    float: right;
+    
+}
+
+.author {
+    padding-top: 10px;
+    float: right;
+}
+
+.project {
+    color: #e4e4e4;
+    height: 400px;
+    padding: 10px;
+    width: 49%;
+    text-align: center;
+}
+
+.btn-lg {
+    font-size: 1.2rem;
+    display: inline-block;
+    background: #bcbbbb;
+    color: #fff;
+    padding: 4px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    text-decoration: none;
+  }
+  
+  .btn-lg:hover,
+  .btn-sm:hover {
+    background: #F48023;
+    color:  #100c08;
+  }
+
+  .btn-sm {
+    font-size: 1rem;
+    display: inline-block;
+    background: #bcbbbb;
+    color: #fff;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    text-decoration: none;
+  }
+  
+  .btn-light {
+    background: #696969;
+    color: #fff;
+  }
+
+  .troll {
+      text-align: center;
+      font-size: 1rem;
+      line-height: 1.7rem;
+  }
+
+  .form-group {
+      text-align: center;
+  }
+
+  .response {
+      text-align: center;
+  }
+
+  .center {
+      text-align: center;
+      padding: 10px;
+  }
+  
+  .navbar {
+      margin: 0 auto;
+  }
+
+  .navbar a {
+      padding: 0 10px;
+      margin: 0 0px;
+  }
+#landing-page {
+    background: #333 url('../images/background.jpeg') no-repeat center center/cover;
+    height: 100vh;
+}
+
+#landing-page img {
+    height: 90%;
+    width: 100%;
+}
+
+#troll-face {
+    text-align: center;
+    height: 40%;
+    width: 20%;
+}
+
+#troll-form label {
+    font-size: large;
+    display: block;
+    text-align: center;
+    /* padding-top: 0px; */
+}
+
+#troll-form input[type="text"] {
+    padding: 7px;
+    border-radius: 3px;
+    border: solid 1px #333;
+}
+
+#troll-form input[type="submit"] {
+    cursor: pointer;
+}

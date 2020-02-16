@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+        <title>Dataviz &hyphen; ML web app</title>
+    </head>
+<body>
+    <div class="container">
+            <h1 class="heading">Welcome to the Cyber-Troll Prediction Service</h1>
+            <div class="center">
+                <img id="troll-face" src="{{ url_for('static', filename='images/troll-visage.png')}}" alt="troll face image">    
+            </div>
+        <div class="troll">
+            <div class="container">
+                Modèle d'apprentissage automatique déployé à l'aide de Flask et Scikit-Learn! Vous pouvez interagir avec le modèle d'apprentissage automatique qui a été conçu pour prédire si un commentaire en ligne provient ou non d'un cyber-troll.
+                <div class="navbar">
+                    <a href="{{ url_for('index_view') }}" class="btn btn-sm btn-light" >Accueil</a>
+                    <a href="{{ url_for('troll_notebook') }}" class="btn btn-sm btn-light" title="code python du service">Notebook</a>
+                </div> 
+            </div>
+        </div>
+        
+        <div class="clr"></div>
+        <form method="POST" id="troll-form">
+            <div class="form-group">
+                <label for="text">Entrez un commentaire ci-dessous pour une prédiction!</label>
+                <input type="text" name="text">
+                <input class="btn btn-sm btn-light" type="submit" value="Soumettre">
+            </div>
+        </form>
+        <div class="response">
+            <p>{{ submission }}</p>
+            <h2>{{ text }}</h2>
+        </div>
+    </div>
+</body>
+</html>
