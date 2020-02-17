@@ -27,9 +27,13 @@ Dans ce projet, les résultats du sondage seront utilisées pour répondre aux q
   * Quel est le framework de choix numéro un pour les développeurs?
 
   2. ### Resumé des résultats <a name="resume-resultat"></a>
-Après avoir analysé les données, nous constatons que python est le langage de programmation de choix pour les développeurs qui s'identifient en tant que Data Scientists et Machine Learning Specialist. Les salaires des Data Scientists et Machine Learning Specialist sont les plus élevés des États-Unis. Étonnamment, jQuery est le framework web de choix.
+Après avoir analysé les données, nous constatons que python est le langage de programmation de choix pour les développeurs qui s'identifient en tant que Data Scientists et Machine Learning Specialist. Les salaires des Data Scientists et Machine Learning Specialist sont les plus élevés aux États-Unis. Étonnamment, jQuery est le framework web de choix.
+
+![alt text](https://github.com/alfahami/sof-dataviz_ml-flask-app/blob/master/screen/prefered-languages.png "Python est le langage préféré des DataScientist")
 
 ![alt text](https://github.com/alfahami/sof-dataviz_ml-flask-app/blob/master/screen/salaries_pour_data_science_usa.png "Salaire des datascientists aux USA")
+
+![alt text](https://github.com/alfahami/sof-dataviz_ml-flask-app/blob/master/screen/framework-ds-ml.png "Frameworks préféré des Data Scientist - ML Specialist")
 
   3. ### Données et code <a name="code-donnees"></a>
 
