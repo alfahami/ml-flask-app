@@ -19,7 +19,8 @@
   1. ### Présentation des données <a name="presentation"></a>
 <p align="justify">
 Avec près de 90 000 réponses provenant de plus de 170 pays et territoires dépendants, le sondage Stack Overflow Annual Developer Survey continue d'être le sondage le plus complet jamais réalisée auprès des développeurs de logiciels. Le sondage couvre des aspects tels que la satisfaction professionnelle et la recherche d'emploi dans les langages de programmation...etc<br>
-
+Inline-style: 
+![alt text](https://github.com/alfahami/sof-dataviz_ml-flask-app/blob/master/screen/salaries_pour_data_science_usa.png "Salaire des datascientists auw USA")
 Les données du sondage peuvent être télécharger [2019 Stack Overflow Survey results](https://insights.stackoverflow.com/survey)<br>
 Dans ce projet, les résultats du sondage seront utilisées pour répondre aux questions suivantes pour les aspirants scientifiques des données (data scientists):
 </p>
@@ -81,8 +82,8 @@ Maintenant nous pouvons déployer l'application (Vous devez avoir flask déjà i
 
 Naviguez vers `http://127.0.0.1:5000/` pour voir la page d'accueil de l'application
 Vous pouvez soit visualizer le notebook du stackoverflow survey, soit utiliser le service de prédiction
-Inline-style: 
-![alt text](https://github.com/alfahami/sof-dataviz_ml-flask-app/blob/master/screen/troll-test.png "Service dprédiction troll")
+
+
 
 Nous voyons bien que "**Get the fuck out here**" a été bien prédi comme commentaire troll
 
