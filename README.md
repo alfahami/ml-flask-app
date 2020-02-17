@@ -16,6 +16,7 @@
       2. [Détails](#details)
 
 ## Analyse des resultats du Stack Overflow Survey 2019 <a name="stack-overflow"></a>
+![alt text](https://github.com/alfahami/sof-dataviz_ml-flask-app/blob/master/screen/troll-2020-02-17_03.57.gif "Simulation de l'application")
   1. ### Présentation des données <a name="presentation"></a>
 Avec près de 90 000 réponses provenant de plus de 170 pays et territoires dépendants, le sondage Stack Overflow Annual Developer Survey continue d'être le sondage le plus complet jamais réalisée auprès des développeurs de logiciels. Le sondage couvre des aspects tels que la satisfaction professionnelle et la recherche d'emploi dans les langages de programmation...etc<br>
 Les données du sondage peuvent être télécharger [2019 Stack Overflow Survey results](https://insights.stackoverflow.com/survey)<br>
@@ -46,7 +47,7 @@ Téléchargez les de données requis ainsi que les bibliothèques requis, si né
 Téléchargez le [fichier notebook](https://github.com/alfahami/sof-dataviz_ml-flask-app/blob/master/model_dev/sof-dataviz.ipynb) et exécutez le avec jupyter notebook
 
 ## Machine Learning Flask web app <a name="ml-flask-app"></a>
-  1. ### Objectif de l'application <a name="objectif"></a>
+   1. ### Objectif de l'application <a name="objectif"></a>
 <p align="justify">
 Application Web conçue pour montrer la structure du projet pour un modèle d'apprentissage automatique déployé à l'aide de flask. Ce projet comprend un modèle d'apprentissage automatique qui a été formé pour détecter si un commentaire en ligne est un <i>Cyber Troll</i> ou <i>non Cyber-Troll</i>. Cette application agit comme une interface permettant à un utilisateur de soumettre de nouvelles requêtes. Le modèle d'apprentissage automatique a été construit à l'aide de diverses fonctionnalités de scikit learn:
 
