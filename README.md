@@ -20,7 +20,6 @@
 Avec près de 90 000 réponses provenant de plus de 170 pays et territoires dépendants, le sondage Stack Overflow Annual Developer Survey continue d'être le sondage le plus complet jamais réalisée auprès des développeurs de logiciels. Le sondage couvre des aspects tels que la satisfaction professionnelle et la recherche d'emploi dans les langages de programmation...etc<br>
 Les données du sondage peuvent être télécharger [2019 Stack Overflow Survey results](https://insights.stackoverflow.com/survey)<br>
 Dans ce projet, les résultats du sondage seront utilisées pour répondre aux questions suivantes pour les aspirants scientifiques des données (data scientists):
-</p>
 
   * Quel est le langage de programmation de votre choix?
   * Quel est le salaire des développeurs?
@@ -28,6 +27,7 @@ Dans ce projet, les résultats du sondage seront utilisées pour répondre aux q
 
   2. ### Resumé des résultats <a name="resume-resultat"></a>
 Après avoir analysé les données, nous constatons que python est le langage de programmation de choix pour les développeurs qui s'identifient en tant que Data Scientists et Machine Learning Specialist. Les salaires des Data Scientists et Machine Learning Specialist sont les plus élevés des États-Unis. Étonnamment, jQuery est le framework web de choix.
+
 ![alt text](https://github.com/alfahami/sof-dataviz_ml-flask-app/blob/master/screen/salaries_pour_data_science_usa.png "Salaire des datascientists aux USA")
 
   3. ### Données et code <a name="code-donnees"></a>
