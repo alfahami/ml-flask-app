@@ -17,7 +17,6 @@
 
 ## Analyse des resultats du Stack Overflow Survey 2019 <a name="stack-overflow"></a>
   1. ### Présentation des données <a name="presentation"></a>
-<p align="justify">
 Avec près de 90 000 réponses provenant de plus de 170 pays et territoires dépendants, le sondage Stack Overflow Annual Developer Survey continue d'être le sondage le plus complet jamais réalisée auprès des développeurs de logiciels. Le sondage couvre des aspects tels que la satisfaction professionnelle et la recherche d'emploi dans les langages de programmation...etc<br>
 Les données du sondage peuvent être télécharger [2019 Stack Overflow Survey results](https://insights.stackoverflow.com/survey)<br>
 Dans ce projet, les résultats du sondage seront utilisées pour répondre aux questions suivantes pour les aspirants scientifiques des données (data scientists):
@@ -28,13 +27,11 @@ Dans ce projet, les résultats du sondage seront utilisées pour répondre aux q
   * Quel est le framework de choix numéro un pour les développeurs?
 
   2. ### Resumé des résultats <a name="resume-resultat"></a>
-<p align="justify">
-Après avoir analysé les données, nous constatons que python est le langage de programmation de choix pour les développeurs qui s'identifient en tant que Data Scientists et Machine Learning Specialist. Les salaires des Data Scientists et Machine Learning Specialist sont les plus élevés des États-Unis. Étonnamment, jQuery est le framework web de choix.</p>
-Inline-style: 
+Après avoir analysé les données, nous constatons que python est le langage de programmation de choix pour les développeurs qui s'identifient en tant que Data Scientists et Machine Learning Specialist. Les salaires des Data Scientists et Machine Learning Specialist sont les plus élevés des États-Unis. Étonnamment, jQuery est le framework web de choix.
 ![alt text](https://github.com/alfahami/sof-dataviz_ml-flask-app/blob/master/screen/salaries_pour_data_science_usa.png "Salaire des datascientists aux USA")
 
   3. ### Données et code <a name="code-donnees"></a>
-<p align="jstify">
+
 L'analyse principale est contenue dans le fichier jupyter notebook [sof-dataviz.ipynb](https://github.com/alfahami/sof-dataviz_ml-flask-app/blob/master/model_dev/sof-dataviz.ipynb). Toutes les fonctions et le code, ainsi que la justification des décisions prises, sont contenus dans ce fichier notebook.
 
   4. ### Prérequis <a name="prerequis"></a>
@@ -47,7 +44,6 @@ L'analyse principale est contenue dans le fichier jupyter notebook [sof-dataviz.
   5. ### Instruction d'exécution
 Téléchargez les de données requis ainsi que les bibliothèques requis, si nécessaire, modifiez les chemins de répertoire.
 Téléchargez le [fichier notebook](https://github.com/alfahami/sof-dataviz_ml-flask-app/blob/master/model_dev/sof-dataviz.ipynb) et exécutez le avec jupyter notebook
-</p>
 
 ## Machine Learning Flask web app <a name="ml-flask-app"></a>
   1. ### Objectif de l'application <a name="objectif"></a>
@@ -83,8 +79,6 @@ Maintenant nous pouvons déployer l'application (Vous devez avoir flask déjà i
 
 Naviguez vers `http://127.0.0.1:5000/` pour voir la page d'accueil de l'application
 Vous pouvez soit visualizer le notebook du stackoverflow survey, soit utiliser le service de prédiction
-
-Inline-style: 
 ![alt text](https://github.com/alfahami/sof-dataviz_ml-flask-app/blob/master/screen/troll-test.png "Test du service de prédiction")
 
 Nous voyons bien que "**Get the fuck out here**" a été bien prédi comme commentaire troll
