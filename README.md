@@ -1,4 +1,4 @@
-# SOF Survey 2019 - Machine Learning flask Web app
+# STack Overflow Survey 2019 - ML Flask Web app
 
 # Sommaire
 
@@ -81,9 +81,10 @@ Maintenant nous pouvons déployer l'application (Vous devez avoir flask déjà i
 
 Naviguez vers `http://127.0.0.1:5000/` pour voir la page d'accueil de l'application
 Vous pouvez soit visualizer le notebook du stackoverflow survey, soit utiliser le service de prédiction
-[image goes here]
+Inline-style: 
+![alt text](https://github.com/alfahami/sof-dataviz_ml-flask-app/blob/master/screen/troll-test.png "Service dprédiction troll")
 
-Nous essayons de prédire le commentaire : "Get the fuck out here"
+Nous voyons bien que "**Get the fuck out here**" a été bien prédi comme commentaire troll
 
 ## Structure du projet <a name="repository"></a>
    1. ### Présentation <a name="projet-presentation"></a>
